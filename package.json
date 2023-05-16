@@ -1,0 +1,13 @@
+{
+  "name": "gpt-vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "single-response.js",
+  "scripts": {
+    "start:single": "npx servor single-response index.html 8080 --reload --browse",
+    "start:stream": "npx servor stream-response index.html 8081 --reload --browse"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
